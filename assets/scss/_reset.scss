@@ -1,0 +1,11 @@
+/** @format */
+@font-face {
+  font-family: Iran-sans;
+  src: url(../fonts/IRANSansX-Regular.woff);
+}
+* {
+  font-family: Iran-sans;
+}
+.bg-transparent {
+  background-color: transparent !important;
+}

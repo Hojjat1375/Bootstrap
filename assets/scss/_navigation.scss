@@ -1,0 +1,42 @@
+/** @format */
+body {
+  div.custom-color-navbar {
+    background-color: #232f3e;
+    div.container {
+      div.custom-navbar {
+        nav.navbar {
+          div.container-fluid {
+            div.collapse {
+              ul {
+                li {
+                  font-size: 0.9rem;
+                  border-color: #4b4b4b !important;
+                  a {
+                    color: var(--bs-gray-200);
+                    &:hover {
+                      color: var(--bs-gray-200);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    //   div.custom-dropdown-menu {
+    //     div:first-child {
+    //       div.btn-group{
+    //         button.dropdown-toggle{
+    //             font-size: 0.9rem;
+    //         }
+    //         div.input-group{
+    //             input,button{
+    //             font-size: 0.9rem;
+    //             }
+    //         }
+    //       }
+    //     }
+    //   }
+    }
+  }
+}
